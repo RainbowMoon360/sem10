@@ -1,0 +1,40 @@
+/*----------------------------------
+Base
+----------------------------------*/
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,*before,*after{
+    box-sizing: inherit;
+}
+
+/*----------------------------------
+Générique
+----------------------------------*/
+
+.wrapper{
+    max-width:1200px;
+    margin:0 auto;
+}
+
+body{
+    font-family:"Roboto", sans-serif;
+    margin:0;
+    padding:0;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+ul{
+    list-style:none;
+}
+
+/*----------------------------------
+Components
+----------------------------------*/
