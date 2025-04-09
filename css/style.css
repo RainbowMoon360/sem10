@@ -125,3 +125,160 @@ h1{
     align-items:center;
     min-height:600px;
 }
+
+/*ARTICLES*/
+
+.articles6{
+    background-color:#ECF0F1;
+    padding-bottom:86px;
+}
+
+h2{
+    font:bold 3.6rem "Josefin Sans", sans-serif;
+    padding:76px 0px 0px 0px;
+    color:#474747;
+    margin:0
+}
+
+.articles6 p{
+    font:400 1.8rem "Roboto", sans-serif;
+    color:#474747;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    gap:37px;
+}
+
+.grid article{
+    background-color:white;
+    padding:34px 30px 30px 34px;
+    color:#E25254;
+}
+
+h3{
+    font:bold 2.2rem "Josefin Sans", sans-serif;
+    margin:0;
+}
+
+.titre{
+    display:flex;
+    gap:3px;
+    margin-bottom:24px;
+}
+ .grid article p{
+    padding-bottom:50px;
+    font:400 1.8rem "Roboto", sans-serif;
+    line-height:27px;
+ }
+
+ .grid article:hover{
+    background-color:#E25254;
+    color:white;
+ }
+
+ .grid article:hover p{
+    color:white;
+ }
+
+ /*SECTION*/
+
+ .tile{
+    background:#E25254 url(../images/3px-tile\ 1.png) repeat ;
+    padding-bottom:71px;
+ }
+
+ .tile h2{
+    color:white;
+ }
+
+ .tile p{
+    font:400 1.8rem "Roboto", sans-serif;
+    color:white;
+    padding-bottom:40px;
+ }
+
+ .grid2{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:37px;
+ }
+
+ .grid3{
+    background-color:white;
+    padding:29px 28px 0px 28px;
+    display:grid;
+    grid-template-columns:41px 271px;
+ }
+
+ .grid3 p{
+    color:black;
+    padding-bottom:0;
+    line-height:27px;
+ }
+
+ .grid3 h3{
+    color:#E25254;
+    padding-bottom:21px;
+    margin:0;
+    margin-top:5px;
+ }
+
+ .droite{
+    text-align:right;
+    padding-bottom:0px;
+    margin-bottom:50px;
+ }
+
+ /*FOOTER*/
+
+ footer{
+    background-color:#E25254;
+ }
+
+ footer .wrapper{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+ }
+
+ footer p{
+    color:white;
+    font:400 1.8rem "Roboto", sans-serif;
+ }
+
+ /*MODALE*/
+
+ .zoom{
+    width:800px;
+    height:600px;
+    cursor: pointer;
+    color:#C0392B;
+    font-size:100rem;
+    padding:30px;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+    font-family:"Roboto", sans-serif;
+}
+
+.modale{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    z-index:3;
+    background-color:rgba(0, 0, 0, 0.8);
+    display:none;
+    justify-content:center;
+    align-items:center;
+}
+
+.visible{
+    display:flex;
+}
